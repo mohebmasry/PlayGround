@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#101a19">
+<meta name="description" content="ماتنخدعش — لعبة سرد تفاعلي عن الاستقطاب والابتزاز الرقمي، بخياراتك وإيقاعك.">
+<title>ماتنخدعش — حكاية على شاشة موبايل</title><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<header class="masthead"><div class="brand"><div class="brand-mark" aria-hidden="true">م</div><div><div class="brand-name">ماتنخدعش</div><div class="brand-tag">حكاية تفاعلية على شاشة موبايل</div></div></div><div class="top-note"><span class="live-dot"></span> لعبة توعوية · +18</div></header>
+<main class="layout">
+<section class="story-side" id="story-side">
+<div class="eyebrow" id="eyebrow">حكاية من ٧ أيام</div><h1 id="headline">مش كل اللي<br><span>فاهمك، صاحبك.</span></h1>
+<p class="lead" id="lead">موبايل كريم هو العالم كله. رسالة ورا رسالة، أسبوع واحد ممكن يغيّر شكل الحكاية. وإنت مش محتاج تلاقي «الإجابة الصح» — بس خليك واخد بالك من اللي بيتغيّر.</p>
+<div class="intro-details" id="intro-details"><div class="detail"><span class="detail-icon">◷</span><span>٢٥–٣٥ دقيقة تقريبًا</span></div><div class="detail"><span class="detail-icon">▣</span><span>اختياراتك تغيّر اللي بعده</span></div><div class="detail"><span class="detail-icon">◉</span><span>مفيش صور عنف أو مشاهد صادمة</span></div></div>
+<div class="story-quote" id="story-quote"><span class="quote-mark">“</span><span>باب المساعدة بيفضل مفتوح، حتى لو اتأخرنا في خبطه.</span></div>
+<div class="safe-note" id="safe-note"><strong>قبل ما تبدأ</strong><p>اللعبة فيها ضغط نفسي، عزل، تهديد بنشر محادثات، وطلب مقابلة مجهولة. تقدر توقف أو تعيد من أي وقت. لو الموضوع قريب منك، كلم شخص موثوق في حياتك.</p></div>
+<div class="analysis-slot" id="analysis-slot" hidden></div>
+</section>
+<section class="device-wrap" aria-label="محاكاة موبايل كريم"><div class="device"><div class="device-top"><span class="camera"></span></div><div class="phone" id="phone">
+<div class="statusbar"><span id="clock">٩:٤١</span><span>●●● ▰</span></div>
+<div id="start-screen" class="start-screen"><div class="wallpaper"><div class="wallpaper-date">الخميس، ١٢ أكتوبر</div><div class="wallpaper-time">٩:٤١</div></div><div class="start-content"><div class="notification"><div class="notif-icon">◉</div><div><b>كريم</b><span>يوم عادي؟ نشوف.</span></div><time>دلوقتي</time></div><button class="primary start-button" id="start-button"><span>ابدأ الحكاية</span><span>←</span></button><div class="tiny-hint">كل حاجة هتحصل على الشاشة دي</div></div></div>
+<div id="game-screen" class="game-screen" hidden>
+<div class="phone-head"><div><div class="day-label" id="day-label">اليوم الأول</div><div class="time-label" id="time-label">الخميس · ٩:٤١ مساءً</div></div><button class="icon-button" id="sound-button" aria-label="تشغيل أو إيقاف الاهتزاز" title="اهتزاز">⌁</button></div>
+<div class="progress-row"><div class="progress-track"><span id="progress-fill"></span></div><span id="move-count">حركتين فاضلين</span></div>
+<div class="tabs" role="tablist"><button class="tab active" data-tab="chat" role="tab" aria-selected="true">الرسائل <i id="unread-dot"></i></button><button class="tab" data-tab="notes" role="tab" aria-selected="false">الدفتر</button><button class="tab" data-tab="people" role="tab" aria-selected="false">الناس</button></div>
+<div class="phone-content" id="phone-content" tabindex="0"></div>
+<div class="phone-nav"><span class="nav-dot active" data-nav="chat">●</span><span class="nav-dot" data-nav="notes">▤</span><span class="nav-dot" data-nav="people">♙</span><span class="nav-hint" id="nav-hint">موبايل كريم</span></div>
+</div>
+<div id="end-screen" class="end-screen" hidden><div class="end-icon" id="end-icon">✳</div><div class="end-kicker">بعد ٧ أيام</div><h2 id="end-title">الحكاية مكملة</h2><p id="end-copy"></p><button class="primary" id="analysis-button">شوف قراءة الحكاية <span>←</span></button><button class="text-button" id="restart-button">ابدأ من الأول</button></div>
+</div><div class="device-shadow"></div></div></section>
+</main><footer class="footer"><span>ماتنخدعش</span><span>قصة خيالية للتوعية · مفيش إجابة مثالية واحدة</span><button id="reset-button">إعادة اللعبة</button></footer>
+</div><div class="toast" id="toast" role="status" aria-live="polite"></div><script src="game.js"></script>
+</body></html>
